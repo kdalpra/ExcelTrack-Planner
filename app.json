@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "ETPlanner",
-    "slug": "ETPlanner",
-    "version": "1.0.0",
+    "name": "Credit Tracker",
+    "slug": "CreditTracker",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "pgct.com.klayddesign",
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dee72b29-5c89-4cc9-9c6b-9ba0e521f1f3"
+      }
     }
   }
 }
