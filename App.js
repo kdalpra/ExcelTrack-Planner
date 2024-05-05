@@ -6,7 +6,7 @@ import DialogInput from 'react-native-dialog-input';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import db from './db';
 import * as FileSystem from 'expo-file-system';
-import * as Updates from "expo-updates"
+import * as Updates from "expo-updates";
 
 
 
